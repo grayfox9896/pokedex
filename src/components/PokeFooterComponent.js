@@ -11,7 +11,9 @@ const PokeFooterComponent=()=>{
     return (<footer><ul>
         <li><Link to="/"><img src={pikachu} />Pokemons</Link></li>
         <li><Link to="/items"><img src={bola} />Items</Link></li>
-    </ul></footer>);
+    </ul>
+    <span>Joel Mena Febrero 2024</span>
+    </footer>);
 }
 
 export default PokeFooterComponent;
