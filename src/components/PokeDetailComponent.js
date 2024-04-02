@@ -23,7 +23,7 @@ const PokeDetailComponent=()=>{
            const pokemonsData = await req.json();
            if (pokemonsData.results.filter((elem)=>{return elem.name===params.name}).length===0){
             
-            setPokemon({name:"No existe el pokemon " + params.name, sprites: {large:""}, hpp:"",attack:"",defense:"",sp_atk:"",sp_def:"",speed:""});
+            setPokemon({name:"boludo No existe el pokemon " + params.name, sprites: {large:""}, hpp:"",attack:"",defense:"",sp_atk:"",sp_def:"",speed:""});
             setCargando(false);     
             return;
            }
