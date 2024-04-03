@@ -12,7 +12,7 @@ const PokeFooterComponent=()=>{
         <li><Link to="/"><img src={pikachu} />Pokemons</Link></li>
         <li><Link to="/items"><img src={bola} />Items</Link></li>
     </ul>
-    <span>Joel Mena Febrero 2024</span>
+    <span>Joel Mena Febrero {new Date().getFullYear()}</span>
     </footer>);
 }
 
